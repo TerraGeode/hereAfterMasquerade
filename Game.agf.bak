@@ -2620,9 +2620,9 @@
         <Name>Speech</Name>
         <OutlineFont>2</OutlineFont>
         <OutlineStyle>UseOutlineFont</OutlineStyle>
-        <PointSize>0</PointSize>
+        <PointSize>75</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
-        <SourceFilename />
+        <SourceFilename>Comic_Neue/ComicNeue-Regular.ttf</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
       </Font>
