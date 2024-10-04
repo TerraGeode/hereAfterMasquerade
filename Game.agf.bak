@@ -1063,10 +1063,10 @@
                 <ID>0</ID>
                 <ItemHeight>21</ItemHeight>
                 <ItemWidth>21</ItemWidth>
-                <Left>96</Left>
+                <Left>492</Left>
                 <Locked>False</Locked>
                 <Name>invCustom</Name>
-                <Top>86</Top>
+                <Top>306</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>2088</Width>
@@ -2244,6 +2244,24 @@
             <ID>5</ID>
             <Image>6</Image>
             <Name>iPlunger</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>9</CursorImage>
+            <Description>Wrench</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>6</ID>
+            <Image>9</Image>
+            <Name>iWrench</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
