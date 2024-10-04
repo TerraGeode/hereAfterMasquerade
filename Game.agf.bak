@@ -4747,6 +4747,161 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="10" Width="870" Height="1095" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/fountainBroken.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>1095</ImportHeight>
+                  <ImportWidth>870</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="11" Width="870" Height="1095" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/fountainfixed.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>1095</ImportHeight>
+                  <ImportWidth>870</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="cursors">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="12" Width="290" Height="267" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inspectCursor.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>267</ImportHeight>
+                  <ImportWidth>290</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="13" Width="400" Height="368" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inspectIcon.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>368</ImportHeight>
+                  <ImportWidth>400</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="14" Width="290" Height="267" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/interactCursor.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>267</ImportHeight>
+                  <ImportWidth>290</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="15" Width="400" Height="368" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/interactIcon.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>368</ImportHeight>
+                  <ImportWidth>400</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="16" Width="290" Height="267" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/talkCursor.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>267</ImportHeight>
+                  <ImportWidth>290</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="17" Width="400" Height="368" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/talkIcon.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>368</ImportHeight>
+                  <ImportWidth>400</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="18" Width="290" Height="267" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/walkCursor.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>267</ImportHeight>
+                  <ImportWidth>290</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="19" Width="400" Height="368" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/walkIcon.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>368</ImportHeight>
+                  <ImportWidth>400</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
