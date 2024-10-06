@@ -892,7 +892,7 @@
                 <Height>291</Height>
                 <ID>4</ID>
                 <Image>2120</Image>
-                <Left>1548</Left>
+                <Left>1549</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2121</MouseoverImage>
                 <Name>btnIconInv</Name>
@@ -967,7 +967,7 @@
                 <Height>291</Height>
                 <ID>7</ID>
                 <Image>2132</Image>
-                <Left>2700</Left>
+                <Left>2696</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2133</MouseoverImage>
                 <Name>btnIconLoad</Name>
@@ -2190,7 +2190,7 @@
             <ID>2</ID>
             <Image>7</Image>
             <Name>iPipes</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
