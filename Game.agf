@@ -653,15 +653,15 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Apartment</Description>
             <Number>1</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Bathroom</Description>
             <Number>2</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Plaza</Description>
             <Number>3</Number>
           </UnloadedRoom>
           <UnloadedRoom>
@@ -675,10 +675,6 @@
           <UnloadedRoom>
             <Description IsNull="True" />
             <Number>6</Number>
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Description IsNull="True" />
-            <Number>7</Number>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -2545,6 +2541,48 @@
               <Event Index="7" />
             </Interactions>
           </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>2</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>40</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>3</NormalView>
+            <Properties />
+            <RealName>Charles</RealName>
+            <ScriptName>cChar1</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>880</StartX>
+            <StartY>1812</StartY>
+            <StartingRoom>3</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
         </Characters>
       </CharacterFolder>
     </Characters>
@@ -2552,7 +2590,48 @@
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders />
-        <Dialogs />
+        <Dialogs>
+          <Dialog>
+            <ID>0</ID>
+            <Name>dDialog1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cChar1: Well...
+cChar1: This ruins my plans.
+return
+@1
+cChar1: Yeah. I wanted to propose
+cChar1: today, but since the fountain's broke,
+cChar1: but I suppose it's another sign from
+cChar1: the univese it's simply not meant to be.
+cLive: Darn, that sucks.
+cGhost: Hey, I think we could fix it.
+cGhost: Might take a bit of time, but we got
+cGhost: nothing better to do.
+stop
+@2
+cChar1: Yeah, see ya around
+cChar1: I guess.
+cChar1: This is going to be humiliating...
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Is something wrong?</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Can't help ya there. Later.</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+        </Dialogs>
       </DialogFolder>
     </Dialogs>
     <Cursors>
