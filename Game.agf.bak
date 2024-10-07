@@ -2754,7 +2754,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cCahier: That plunger is 100 score.
+cCashier: That plunger is 100 score.
 cCashier: Would you like it?
 return
 @1
@@ -2765,6 +2765,7 @@ cCashier: Sure, one second.
   } else {
     GiveScore(-100);
     cLive.AddInventory(iPlunger);
+  }
 stop
 @2
 cCashier: Alright, feel free to keep looking around
@@ -2791,7 +2792,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cCahier: That wrench is 150 score.
+cCashier: That wrench is 150 score.
 cCashier: Would you like it?
 return
 @1
@@ -2802,6 +2803,7 @@ cCashier: Sure, one second.
   } else {
     GiveScore(-150);
     cLive.AddInventory(iWrench);
+  }
 stop
 @2
 cCashier: Alright, feel free to keep looking around
@@ -2827,7 +2829,7 @@ stop]]></Script>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cCahier: These piped are 300 score.
+cCashier: These piped are 300 score.
 cCashier: Would you like them?
 return
 @1
@@ -2838,6 +2840,7 @@ cCashier: Sure, one second.
   } else {
     GiveScore(-300);
     cLive.AddInventory(iPipes);
+  }
 stop
 @2
 cCashier: Alright, feel free to keep looking around
@@ -3305,6 +3308,11 @@ stop
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
           <Name>pipesfixed</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>pipesUnlocked</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
