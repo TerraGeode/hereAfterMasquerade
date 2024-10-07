@@ -1081,7 +1081,7 @@
                 <Height>291</Height>
                 <ID>1</ID>
                 <Image>2116</Image>
-                <Left>468</Left>
+                <Left>492</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2117</MouseoverImage>
                 <Name>btnInvSelect</Name>
@@ -1091,7 +1091,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>1090</Top>
+                <Top>1102</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>384</Width>
@@ -1131,7 +1131,7 @@
                 <Height>205</Height>
                 <ID>3</ID>
                 <Image>2160</Image>
-                <Left>1764</Left>
+                <Left>1761</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnInvOK</Name>
@@ -2502,15 +2502,15 @@
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>2</NormalView>
             <Properties />
-            <RealName xml:space="preserve">New character</RealName>
+            <RealName>Ghost</RealName>
             <ScriptName>cGhost</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
-            <StartingRoom>-1</StartingRoom>
+            <StartX>276</StartX>
+            <StartY>1812</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
