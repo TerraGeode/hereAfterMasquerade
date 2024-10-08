@@ -2675,9 +2675,9 @@
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cPlumber_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cPlumber_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -2858,6 +2858,84 @@ stop
                 <Say>True</Say>
                 <Show>True</Show>
                 <Text xml:space="preserve">Not right now.</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>5</ID>
+            <Name>dPlumberProblem</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cPlumber: Ah, hello miss. Can I help you?
+cLive: Can you help me fix the fountain?
+cPlumber: I think I have time for that, 
+cPlumber: but can you help me first?
+cLive: It depends.
+cPlumber: This is kind of embarrasing, but
+cPlumber: I lost the key I need to get
+cPlumber: down there. It should be somewhere
+cPlumber: around the fountain.
+  foundPlumber = true;
+return
+@1
+cPlumber: Thanks. I'll see you over there.
+  cPlumber.Move(180, 1852,eNoBlock,eWalkableAreas);
+  cPlumber.ChangeRoom(3, 2444, 1736);
+stop
+@2
+cPlumber: Sorry for bothering you with this.
+cPlumber: I will work on this as quickly as possible.
+  cPlumber.Move(180, 1852,eNoBlock,eWalkableAreas);
+  cPlumber.ChangeRoom(3, 2444, 1736);
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Alright, I can help you look.</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Fine, I'll tkae a look.</Text>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>6</ID>
+            <Name>dOpenSewer</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cLive: I found the key.
+cPlumber: Nice. How did you find it?
+return
+@1
+cPlumber: Well then I guess I need to find a penny to fix mine
+cLive: Does that mean you can fix the fountain now?
+cPlumber: Maybe, depends on what is wrong with it.
+stop
+@2
+cPlumber: Eh, I suppose kids are coming by weirder skills these days.
+cLive: Yeah, let's go with that.
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Probably luck</Text>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Say>True</Say>
+                <Show>True</Show>
+                <Text xml:space="preserve">Oh you know... Skill?</Text>
               </DialogOption>
             </DialogOptions>
           </Dialog>
@@ -3313,6 +3391,11 @@ stop
         <GlobalVariable>
           <DefaultValue>false</DefaultValue>
           <Name>pipesUnlocked</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>foundPlumber</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
