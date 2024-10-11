@@ -2487,12 +2487,12 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>4</MovementSpeed>
+            <MovementSpeed>40</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>1</NormalView>
             <Properties />
-            <RealName>Roger</RealName>
+            <RealName>Alice</RealName>
             <ScriptName>cLive</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
@@ -2529,7 +2529,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>40</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>2</NormalView>
@@ -2613,7 +2613,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>40</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>3</NormalView>
@@ -2655,7 +2655,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>40</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>3</NormalView>
@@ -2880,13 +2880,13 @@ cPlumber: around the fountain.
 return
 @1
 cPlumber: Thanks. I'll see you over there.
-  cPlumber.Move(180, 1852,eNoBlock,eWalkableAreas);
+  cPlumber.Walk(180, 1852,eBlock,eWalkableAreas);
   cPlumber.ChangeRoom(3, 2444, 1736);
 stop
 @2
 cPlumber: Sorry for bothering you with this.
 cPlumber: I will work on this as quickly as possible.
-  cPlumber.Move(180, 1852,eNoBlock,eWalkableAreas);
+  cPlumber.Walk(180, 1852,eBlock,eWalkableAreas);
   cPlumber.ChangeRoom(3, 2444, 1736);
 stop
 ]]></Script>
@@ -2907,7 +2907,7 @@ stop
           </Dialog>
           <Dialog>
             <ID>6</ID>
-            <Name>dOpenSewer</Name>
+            <Name>dOpenSewer1</Name>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
@@ -2938,6 +2938,24 @@ stop
                 <Text xml:space="preserve">Oh you know... Skill?</Text>
               </DialogOption>
             </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>7</ID>
+            <Name>dOpenSewer2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cPlumber: Give me a moment to go see whats wrong.
+  cPlumber.ChangeRoom(5);
+  Wait(40);
+  cPlumber.ChangeRoom(3);
+cPlumber: Well I am gonna need to find some pipes.
+cPlumber: Could I bother you to go get some for me?
+cPlumber: I need to make sure no one else goes down there
+cPlumber: before it's fixed.
+stop
+]]></Script>
+            <DialogOptions />
           </Dialog>
         </Dialogs>
       </DialogFolder>
