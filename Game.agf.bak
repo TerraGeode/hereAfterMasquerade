@@ -2691,68 +2691,29 @@
     <PlayerCharacter>0</PlayerCharacter>
     <Dialogs>
       <DialogFolder Name="Main">
-        <SubFolders />
-        <Dialogs>
-          <Dialog>
-            <ID>0</ID>
-            <Name>dDialog1</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-cChar1: Well...
-cChar1: This ruins my plans.
-return
-@1
-cChar1: Yeah. I wanted to propose
-cChar1: today, but since the fountain's broke,
-cChar1: but I suppose it's another sign from
-cChar1: the univese it's simply not meant to be.
-cLive: Darn, that sucks.
-cGhost: Hey, I think we could fix it.
-cGhost: Might take a bit of time, but we got
-cGhost: nothing better to do.
-stop
-@2
-cChar1: Yeah, see ya around
-cChar1: I guess.
-cChar1: This is going to be humiliating...
-cGhost: You know, you could still try to help?
-cLive: ...
-cLive: Fine.
-stop
-]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Is something wrong?</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Can't help ya there. Later.</Text>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>1</ID>
-            <Name>dDialog2</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
+        <SubFolders>
+          <DialogFolder Name="Fountain fix dialogue">
+            <SubFolders>
+              <DialogFolder Name="Cashier Dialogue">
+                <SubFolders />
+                <Dialogs>
+                  <Dialog>
+                    <ID>1</ID>
+                    <Name>dDialog2</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cCashier: Hello, feel free to take a look around.
 cCashier: Just grab what you need, and I will handle the rest.
 stop
 ]]></Script>
-            <DialogOptions />
-          </Dialog>
-          <Dialog>
-            <ID>2</ID>
-            <Name>dPlunger</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>2</ID>
+                    <Name>dPlunger</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cCashier: That plunger is 100 score.
 cCashier: Would you like it?
@@ -2771,26 +2732,26 @@ stop
 cCashier: Alright, feel free to keep looking around
 stop
 ]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text>Sure.</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Not right now.</Text>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>3</ID>
-            <Name>dWrench</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
+                    <DialogOptions>
+                      <DialogOption>
+                        <ID>1</ID>
+                        <Say>True</Say>
+                        <Show>True</Show>
+                        <Text>Sure.</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>2</ID>
+                        <Say>True</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Not right now.</Text>
+                      </DialogOption>
+                    </DialogOptions>
+                  </Dialog>
+                  <Dialog>
+                    <ID>3</ID>
+                    <Name>dWrench</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cCashier: That wrench is 150 score.
 cCashier: Would you like it?
@@ -2808,26 +2769,26 @@ stop
 @2
 cCashier: Alright, feel free to keep looking around
 stop]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text>Sure.</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Not right now.</Text>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>4</ID>
-            <Name>dPipes</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
+                    <DialogOptions>
+                      <DialogOption>
+                        <ID>1</ID>
+                        <Say>True</Say>
+                        <Show>True</Show>
+                        <Text>Sure.</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>2</ID>
+                        <Say>True</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Not right now.</Text>
+                      </DialogOption>
+                    </DialogOptions>
+                  </Dialog>
+                  <Dialog>
+                    <ID>4</ID>
+                    <Name>dPipes</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cCashier: These piped are 300 score.
 cCashier: Would you like them?
@@ -2846,26 +2807,31 @@ stop
 cCashier: Alright, feel free to keep looking around
 stop
 ]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text>Sure.</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Not right now.</Text>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>5</ID>
-            <Name>dPlumberProblem</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
+                    <DialogOptions>
+                      <DialogOption>
+                        <ID>1</ID>
+                        <Say>True</Say>
+                        <Show>True</Show>
+                        <Text>Sure.</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>2</ID>
+                        <Say>True</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Not right now.</Text>
+                      </DialogOption>
+                    </DialogOptions>
+                  </Dialog>
+                </Dialogs>
+              </DialogFolder>
+              <DialogFolder Name="Plumber">
+                <SubFolders />
+                <Dialogs>
+                  <Dialog>
+                    <ID>5</ID>
+                    <Name>dPlumberProblem</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cPlumber: Ah, hello miss. Can I help you?
 cLive: Can you help me fix the fountain?
@@ -2890,26 +2856,26 @@ cPlumber: I will work on this as quickly as possible.
   cPlumber.ChangeRoom(3, 2444, 1736);
 stop
 ]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Alright, I can help you look.</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Fine, I'll tkae a look.</Text>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>6</ID>
-            <Name>dOpenSewer1</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
+                    <DialogOptions>
+                      <DialogOption>
+                        <ID>1</ID>
+                        <Say>True</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Alright, I can help you look.</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>2</ID>
+                        <Say>True</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Fine, I'll tkae a look.</Text>
+                      </DialogOption>
+                    </DialogOptions>
+                  </Dialog>
+                  <Dialog>
+                    <ID>6</ID>
+                    <Name>dOpenSewer1</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cLive: I found the key.
 cPlumber: Nice. How did you find it?
@@ -2924,40 +2890,115 @@ cPlumber: Eh, I suppose kids are coming by weirder skills these days.
 cLive: Yeah, let's go with that.
 stop
 ]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Probably luck</Text>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Say>True</Say>
-                <Show>True</Show>
-                <Text xml:space="preserve">Oh you know... Skill?</Text>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>7</ID>
-            <Name>dOpenSewer2</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
+                    <DialogOptions>
+                      <DialogOption>
+                        <ID>1</ID>
+                        <Say>True</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Probably luck</Text>
+                      </DialogOption>
+                      <DialogOption>
+                        <ID>2</ID>
+                        <Say>True</Say>
+                        <Show>True</Show>
+                        <Text xml:space="preserve">Oh you know... Skill?</Text>
+                      </DialogOption>
+                    </DialogOptions>
+                  </Dialog>
+                  <Dialog>
+                    <ID>7</ID>
+                    <Name>dOpenSewer2</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cPlumber: Give me a moment to go see whats wrong.
   cPlumber.ChangeRoom(5);
   Wait(40);
   cPlumber.ChangeRoom(3);
-cPlumber: Well I am gonna need to find some pipes.
-cPlumber: Could I bother you to go get some for me?
+cPlumber: Well I am gonna need to find some pipes
+cPlumber: and a wrench.
+cPlumber: Could I bother you to go get those for me?
 cPlumber: I need to make sure no one else goes down there
 cPlumber: before it's fixed.
 stop
 ]]></Script>
-            <DialogOptions />
-          </Dialog>
-        </Dialogs>
+                    <DialogOptions />
+                  </Dialog>
+                  <Dialog>
+                    <ID>8</ID>
+                    <Name>dFixPipes</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cPlumber: Thank you very much, now let's see
+cPlumber: about getting this fountain fixed.
+  cPlumber.Walk(1896, 1604,eBlock);
+  cPlumber.ChangeRoom(5);
+  Wait(60);
+  cPlumber.ChangeRoom(3);
+  cPlumber.Walk(2444, 1736,eBlock);
+cPlumber: Alright, that should be that.
+cPlumber: Now let's see if that is working.
+  object[0].Move(1350, 1812,50,eBlock);
+  object[0].Move(1450,1812,50,eBlock);
+  object[0].Visible = false;
+  object[1].Visible = true;
+  pipesfixed = true;
+return
+]]></Script>
+                    <DialogOptions />
+                  </Dialog>
+                </Dialogs>
+              </DialogFolder>
+            </SubFolders>
+            <Dialogs>
+              <Dialog>
+                <ID>0</ID>
+                <Name>dDialog1</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cChar1: Well...
+cChar1: This ruins my plans.
+return
+@1
+cChar1: Yeah. I wanted to propose
+cChar1: today, but since the fountain's broke,
+cChar1: but I suppose it's another sign from
+cChar1: the univese it's simply not meant to be.
+cLive: Darn, that sucks.
+cGhost: Hey, I think we could fix it.
+cGhost: Might take a bit of time, but we got
+cGhost: nothing better to do.
+stop
+@2
+cChar1: Yeah, see ya around
+cChar1: I guess.
+cChar1: This is going to be humiliating...
+cGhost: You know, you could still try to help?
+cLive: ...
+cLive: Fine.
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Is something wrong?</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Can't help ya there. Later.</Text>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+        </SubFolders>
+        <Dialogs />
       </DialogFolder>
     </Dialogs>
     <Cursors>
