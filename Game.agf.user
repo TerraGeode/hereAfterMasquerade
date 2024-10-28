@@ -19,7 +19,7 @@
   </Component>
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>DataFile=hereAfterMasquerade,Windows=hereAfterMasquerade,_Debug=hereAfterMasquerade,</LastBuildGameFileName>
+    <LastBuildGameFileName>DataFile=hereAfterMasquerade,Windows=hereAfterMasquerade,_Debug=hereAfterMasquerade,Linux=hereAfterMasquerade,Web=hereAfterMasquerade,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>
