@@ -2994,24 +2994,26 @@ return
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cChar1: Well...
-cChar1: This ruins my plans.
+cChar1: Hey, are you still looking for that
+cChar1: medal thing?
+cLive: Yeah. Why do you ask?
+cChar1: I think I found a piece of it
+cChar1: But mind helping me out first?
 return
 @1
-cChar1: Yeah. I wanted to propose
-cChar1: today, but since the fountain's broke,
-cChar1: but I suppose it's another sign from
-cChar1: the univese it's simply not meant to be.
-cLive: Darn, that sucks.
-cGhost: Hey, I think we could fix it.
-cGhost: Might take a bit of time, but we got
-cGhost: nothing better to do.
+cChar1: Ok, well there is this girl.
+cLive: Girl?
+cChar1: No, not you, someone else.
+cChar1: Anyways, I wanted to propose
+cChar1: tonight in front of the fountain
+cChar1: but as you can see it's broken.
+cChar1: Can you help me fix it?
+cLive: I'll see what I can do.
+cChar1: Heh, that's all I ask.
 stop
 @2
-cChar1: Yeah, see ya around
-cChar1: I guess.
-cChar1: This is going to be humiliating...
-cGhost: You know, you could still try to help?
+cChar1: Look, I just need the fountain fixed
+cChar1: After that I'll give it to you.
 cLive: ...
 cLive: Fine.
 stop
@@ -3021,13 +3023,13 @@ stop
                     <ID>1</ID>
                     <Say>True</Say>
                     <Show>True</Show>
-                    <Text xml:space="preserve">Is something wrong?</Text>
+                    <Text>Absolutely!</Text>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
                     <Say>True</Say>
                     <Show>True</Show>
-                    <Text xml:space="preserve">Can't help ya there. Later.</Text>
+                    <Text>Fine.</Text>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -3039,7 +3041,7 @@ stop
 @S  // Dialog startup entry point
   cChar1.Walk(1540,1876,eBlock,eWalkableAreas);
 cChar1: Hey, thanks so much.
-cChar1: I'll kold up my end of the deal.
+cChar1: I'll hold up my end of the deal.
 cChar1: Not like it's doing much for me.
 cChar1: Have a great day.
   cLive.AddInventory(iMedal1b);
