@@ -2161,12 +2161,12 @@
         <SubFolders />
         <InventoryItems>
           <InventoryItem>
-            <CursorImage>4</CursorImage>
+            <CursorImage>36</CursorImage>
             <Description xml:space="preserve">Empty Cup</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>98</HotspotX>
+            <HotspotY>94</HotspotY>
             <ID>1</ID>
-            <Image>4</Image>
+            <Image>36</Image>
             <Name>iEmptyCup</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2179,12 +2179,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>7</CursorImage>
+            <CursorImage>45</CursorImage>
             <Description>Pipes</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>84</HotspotX>
+            <HotspotY>81</HotspotY>
             <ID>2</ID>
-            <Image>7</Image>
+            <Image>45</Image>
             <Name>iPipes</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2197,12 +2197,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>8</CursorImage>
+            <CursorImage>35</CursorImage>
             <Description xml:space="preserve">Full Cup</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>94</HotspotX>
+            <HotspotY>105</HotspotY>
             <ID>3</ID>
-            <Image>8</Image>
+            <Image>35</Image>
             <Name>iFullCup</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2269,13 +2269,13 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>30</CursorImage>
-            <Description xml:space="preserve">Mirror Mask</Description>
-            <HotspotX>25</HotspotX>
-            <HotspotY>43</HotspotY>
+            <CursorImage>39</CursorImage>
+            <Description xml:space="preserve">Broken Medal</Description>
+            <HotspotX>104</HotspotX>
+            <HotspotY>81</HotspotY>
             <ID>7</ID>
-            <Image>30</Image>
-            <Name>iMirrorMask</Name>
+            <Image>39</Image>
+            <Name>iMedal1a</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
@@ -2498,8 +2498,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>387</StartX>
-            <StartY>1802</StartY>
+            <StartX>443</StartX>
+            <StartY>1966</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2540,8 +2540,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>3352</StartX>
-            <StartY>1732</StartY>
+            <StartX>3280</StartX>
+            <StartY>1872</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -5088,6 +5088,21 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="33" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/characters/Alice.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>590</ImportHeight>
+                      <ImportWidth>370</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="CharB">
@@ -5105,6 +5120,21 @@ stop
                       <RemapToGamePalette>False</RemapToGamePalette>
                       <RemapToRoomPalette>False</RemapToRoomPalette>
                       <ImportMethod>TopLeft</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="34" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/characters/Ghost.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>590</ImportHeight>
+                      <ImportWidth>370</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
@@ -5589,6 +5619,176 @@ stop
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="inventoryItems">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="35" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/Glass full.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="36" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/GlassEmpty.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="37" Width="207" Height="83" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/IMG_2070.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>83</ImportHeight>
+                  <ImportWidth>207</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="38" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/KeyInv.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="39" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/Medal1a.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="40" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/Medal1b.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="41" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/Medal1c.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="42" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/Medal2a.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="43" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/Medal2b.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="44" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/MedalWhole.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="45" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/inventory/PipesInv.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="False">
@@ -5625,7 +5825,7 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>1</Image>
+                    <Image>33</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5638,7 +5838,7 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>1</Image>
+                    <Image>33</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5651,7 +5851,7 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>1</Image>
+                    <Image>33</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5664,7 +5864,7 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>1</Image>
+                    <Image>33</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5683,7 +5883,7 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>2</Image>
+                    <Image>34</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5696,7 +5896,7 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>2</Image>
+                    <Image>34</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5709,7 +5909,7 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>2</Image>
+                    <Image>34</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5722,7 +5922,7 @@ stop
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>2</Image>
+                    <Image>34</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>

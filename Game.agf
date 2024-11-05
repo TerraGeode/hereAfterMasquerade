@@ -1055,11 +1055,11 @@
                 <CharacterID>-1</CharacterID>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>939</Height>
+                <Height>200</Height>
                 <ID>0</ID>
                 <ItemHeight>200</ItemHeight>
                 <ItemWidth>200</ItemWidth>
-                <Left>134</Left>
+                <Left>200</Left>
                 <Locked>False</Locked>
                 <Name>invCustom</Name>
                 <Top>98</Top>
@@ -2161,12 +2161,12 @@
         <SubFolders />
         <InventoryItems>
           <InventoryItem>
-            <CursorImage>4</CursorImage>
+            <CursorImage>36</CursorImage>
             <Description xml:space="preserve">Empty Cup</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>98</HotspotX>
+            <HotspotY>94</HotspotY>
             <ID>1</ID>
-            <Image>4</Image>
+            <Image>36</Image>
             <Name>iEmptyCup</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2179,12 +2179,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>7</CursorImage>
+            <CursorImage>45</CursorImage>
             <Description>Pipes</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>84</HotspotX>
+            <HotspotY>81</HotspotY>
             <ID>2</ID>
-            <Image>7</Image>
+            <Image>45</Image>
             <Name>iPipes</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2197,12 +2197,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>8</CursorImage>
+            <CursorImage>35</CursorImage>
             <Description xml:space="preserve">Full Cup</Description>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>94</HotspotX>
+            <HotspotY>105</HotspotY>
             <ID>3</ID>
-            <Image>8</Image>
+            <Image>35</Image>
             <Name>iFullCup</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2269,13 +2269,13 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>30</CursorImage>
-            <Description xml:space="preserve">Mirror Mask</Description>
-            <HotspotX>25</HotspotX>
-            <HotspotY>43</HotspotY>
+            <CursorImage>39</CursorImage>
+            <Description xml:space="preserve">Broken Medal</Description>
+            <HotspotX>104</HotspotX>
+            <HotspotY>81</HotspotY>
             <ID>7</ID>
-            <Image>30</Image>
-            <Name>iMirrorMask</Name>
+            <Image>39</Image>
+            <Name>iMedal1a</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
@@ -2498,8 +2498,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>387</StartX>
-            <StartY>1802</StartY>
+            <StartX>443</StartX>
+            <StartY>1966</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2540,8 +2540,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>3352</StartX>
-            <StartY>1732</StartY>
+            <StartX>3280</StartX>
+            <StartY>1872</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
