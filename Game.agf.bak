@@ -38,8 +38,8 @@
       <EnforceObjectBasedScript>True</EnforceObjectBasedScript>
       <GUIAlphaStyle>MultiplyTranslucenceSrcBlend</GUIAlphaStyle>
       <GUIDAsString>{24050618-f5f0-438a-8202-c526078191e4}</GUIDAsString>
-      <GameFileName>hereAfterMasquerade</GameFileName>
-      <GameName xml:space="preserve">Here After Masquerade</GameName>
+      <GameFileName>PhantasticDays</GameFileName>
+      <GameName xml:space="preserve">Phantastic Days</GameName>
       <GameTextEncoding>utf-8</GameTextEncoding>
       <Genre>Adventure</Genre>
       <GlobalSpeechAnimationDelay>5</GlobalSpeechAnimationDelay>
@@ -62,7 +62,7 @@
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <RunGameLoopsWhileDialogOptionsDisplayed>False</RunGameLoopsWhileDialogOptionsDisplayed>
       <SaveGameFileExtension />
-      <SaveGameFolderName xml:space="preserve">Here After Masquerade</SaveGameFolderName>
+      <SaveGameFolderName xml:space="preserve">Phantastic Days</SaveGameFolderName>
       <SaveScreenshots>False</SaveScreenshots>
       <ScaleCharacterSpriteOffsets>True</ScaleCharacterSpriteOffsets>
       <ScaleMovementSpeedWithMaskResolution>False</ScaleMovementSpeedWithMaskResolution>
