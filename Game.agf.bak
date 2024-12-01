@@ -673,8 +673,16 @@
             <Number>5</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description>Underground</Description>
+            <Description>Apartment</Description>
             <Number>6</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description xml:space="preserve">Front Dog Park</Description>
+            <Number>7</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description xml:space="preserve">Back Dog Park</Description>
+            <Number>8</Number>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -727,7 +735,7 @@
                 <Font>0</Font>
                 <Height>140</Height>
                 <ID>1</ID>
-                <Left>3000</Left>
+                <Left>2968</Left>
                 <Locked>False</Locked>
                 <Name>lblScore</Name>
                 <Text xml:space="preserve">Score: @SCORE@</Text>
@@ -745,7 +753,7 @@
                 <Font>0</Font>
                 <Height>140</Height>
                 <ID>2</ID>
-                <Left>0</Left>
+                <Left>-1</Left>
                 <Locked>False</Locked>
                 <Name>lblOverHotspot</Name>
                 <Text>@OVERHOTSPOT@</Text>
@@ -1077,7 +1085,7 @@
                 <Height>203</Height>
                 <ID>1</ID>
                 <Image>31</Image>
-                <Left>492</Left>
+                <Left>736</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>31</MouseoverImage>
                 <Name>btnInvSelect</Name>
@@ -1087,7 +1095,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>1102</Top>
+                <Top>1190</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>199</Width>
@@ -1102,7 +1110,7 @@
                 <Height>368</Height>
                 <ID>2</ID>
                 <Image>13</Image>
-                <Left>48</Left>
+                <Left>160</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>13</MouseoverImage>
                 <Name>btnInvLook</Name>
@@ -1112,7 +1120,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>1090</Top>
+                <Top>1082</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>400</Width>
@@ -1124,10 +1132,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>3</ID>
-                <Image>2160</Image>
-                <Left>1761</Left>
+                <Image>2167</Image>
+                <Left>2221</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnInvOK</Name>
@@ -1136,11 +1144,11 @@
                 <PushedImage>2161</PushedImage>
                 <Text>Close</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
-                <TextColor>19248</TextColor>
-                <Top>1155</Top>
+                <TextColor>0</TextColor>
+                <Top>1199</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>3</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1152,7 +1160,7 @@
                 <Height>291</Height>
                 <ID>4</ID>
                 <Image>2144</Image>
-                <Left>2256</Left>
+                <Left>2236</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2145</MouseoverImage>
                 <Name>btnInvDown</Name>
@@ -1162,7 +1170,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>766</Top>
+                <Top>882</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>360</Width>
@@ -1198,20 +1206,20 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>2167</BackgroundImage>
+              <BackgroundImage>90</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>1695</Height>
+              <Height>2160</Height>
               <ID>3</ID>
-              <Left>372</Left>
+              <Left>0</Left>
               <Name>gPanel</Name>
               <OnClick />
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>302</Top>
+              <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>3108</Width>
+              <Width>3940</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -1221,10 +1229,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>0</ID>
-                <Image>2160</Image>
-                <Left>96</Left>
+                <Image>2167</Image>
+                <Left>704</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnResume</Name>
@@ -1234,10 +1242,10 @@
                 <Text>Resume</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>1188</Top>
+                <Top>1192</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>0</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1246,23 +1254,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>1</ID>
-                <Image>2160</Image>
-                <Left>96</Left>
+                <Image>2167</Image>
+                <Left>712</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnSave</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnSave_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Save</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>54</Top>
+                <Top>378</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>1</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1271,23 +1279,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>2</ID>
-                <Image>2160</Image>
-                <Left>96</Left>
+                <Image>2167</Image>
+                <Left>704</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnAbout</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnAbout_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>About</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>961</Top>
+                <Top>997</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1296,23 +1304,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>3</ID>
-                <Image>2160</Image>
-                <Left>96</Left>
+                <Image>2167</Image>
+                <Left>712</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnQuit</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnQuit_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Quit</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>734</Top>
+                <Top>794</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>3</ZOrder>
               </GUIButton>
               <GUISlider>
@@ -1323,13 +1331,13 @@
                 <HandleOffset>-4</HandleOffset>
                 <Height>108</Height>
                 <ID>4</ID>
-                <Left>1368</Left>
+                <Left>1584</Left>
                 <Locked>False</Locked>
                 <MaxValue>100</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>sldAudio</Name>
                 <OnChange>sldAudio_OnChange</OnChange>
-                <Top>291</Top>
+                <Top>623</Top>
                 <Translated>True</Translated>
                 <Value>100</Value>
                 <Visible>True</Visible>
@@ -1344,13 +1352,13 @@
                 <HandleOffset>-4</HandleOffset>
                 <Height>108</Height>
                 <ID>5</ID>
-                <Left>1368</Left>
+                <Left>1584</Left>
                 <Locked>False</Locked>
                 <MaxValue>255</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>sldVoice</Name>
                 <OnChange>sldVoice_OnChange</OnChange>
-                <Top>604</Top>
+                <Top>908</Top>
                 <Translated>True</Translated>
                 <Value>255</Value>
                 <Visible>True</Visible>
@@ -1365,13 +1373,13 @@
                 <HandleOffset>-4</HandleOffset>
                 <Height>108</Height>
                 <ID>6</ID>
-                <Left>1368</Left>
+                <Left>1584</Left>
                 <Locked>False</Locked>
                 <MaxValue>200</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>sldGamma</Name>
                 <OnChange>sldGamma_OnChange</OnChange>
-                <Top>1198</Top>
+                <Top>1402</Top>
                 <Translated>True</Translated>
                 <Value>100</Value>
                 <Visible>True</Visible>
@@ -1384,23 +1392,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>7</ID>
-                <Image>2160</Image>
-                <Left>96</Left>
+                <Image>2167</Image>
+                <Left>712</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
+                <MouseoverImage>2167</MouseoverImage>
                 <Name>btnDefault</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnDefault_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>2167</PushedImage>
                 <Text>Default</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>1414</Top>
+                <Top>1402</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>7</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1409,23 +1417,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>8</ID>
-                <Image>2160</Image>
-                <Left>96</Left>
+                <Image>2167</Image>
+                <Left>704</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnLoad</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnLoad_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Load</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>280</Top>
+                <Top>1624</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>8</ZOrder>
               </GUIButton>
               <GUILabel>
@@ -1434,13 +1442,13 @@
                 <Font>0</Font>
                 <Height>140</Height>
                 <ID>9</ID>
-                <Left>1380</Left>
+                <Left>1584</Left>
                 <Locked>False</Locked>
                 <Name>lblVolume</Name>
                 <Text xml:space="preserve">Audio Volume</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>118</Top>
+                <Top>458</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>1164</Width>
@@ -1452,13 +1460,13 @@
                 <Font>0</Font>
                 <Height>140</Height>
                 <ID>10</ID>
-                <Left>1380</Left>
+                <Left>1584</Left>
                 <Locked>False</Locked>
                 <Name>lblVoice</Name>
                 <Text xml:space="preserve">Voice Volume</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>442</Top>
+                <Top>770</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>1212</Width>
@@ -1470,13 +1478,13 @@
                 <Font>0</Font>
                 <Height>140</Height>
                 <ID>11</ID>
-                <Left>1380</Left>
+                <Left>1584</Left>
                 <Locked>False</Locked>
                 <Name>lblGamma</Name>
                 <Text>Gamma</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>1026</Top>
+                <Top>1314</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>1212</Width>
@@ -1488,23 +1496,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>12</ID>
-                <Image>2162</Image>
-                <Left>1356</Left>
+                <Image>2167</Image>
+                <Left>2056</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnVoice</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnVoice_OnClick</OnClick>
-                <PushedImage>2163</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text xml:space="preserve">Text only</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>777</Top>
+                <Top>1045</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>1260</Width>
+                <Width>259</Width>
                 <ZOrder>12</ZOrder>
               </GUIButton>
               <GUISlider>
@@ -1515,13 +1523,13 @@
                 <HandleOffset>-4</HandleOffset>
                 <Height>108</Height>
                 <ID>13</ID>
-                <Left>1368</Left>
+                <Left>1584</Left>
                 <Locked>False</Locked>
                 <MaxValue>100</MaxValue>
                 <MinValue>10</MinValue>
                 <Name>sldSpeed</Name>
                 <OnChange>sldSpeed_OnChange</OnChange>
-                <Top>1512</Top>
+                <Top>1656</Top>
                 <Translated>True</Translated>
                 <Value>40</Value>
                 <Visible>True</Visible>
@@ -1534,13 +1542,13 @@
                 <Font>0</Font>
                 <Height>140</Height>
                 <ID>14</ID>
-                <Left>1380</Left>
+                <Left>1584</Left>
                 <Locked>False</Locked>
                 <Name>lblSpeed</Name>
                 <Text>Speed</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>1317</Top>
+                <Top>1585</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>1212</Width>
@@ -1552,23 +1560,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>15</ID>
-                <Image>2160</Image>
-                <Left>96</Left>
+                <Image>2167</Image>
+                <Left>712</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnRestart</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnRestart_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Restart</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>507</Top>
+                <Top>579</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>15</ZOrder>
               </GUIButton>
             </Controls>
@@ -1576,20 +1584,20 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>2168</BackgroundImage>
+              <BackgroundImage>90</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>702</Height>
+              <Height>2160</Height>
               <ID>4</ID>
-              <Left>696</Left>
+              <Left>0</Left>
               <Name>gRestart</Name>
               <OnClick />
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>734</Top>
+              <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>2460</Width>
+              <Width>3940</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -1599,13 +1607,13 @@
                 <Font>0</Font>
                 <Height>291</Height>
                 <ID>0</ID>
-                <Left>288</Left>
+                <Left>1008</Left>
                 <Locked>False</Locked>
                 <Name>lRestartText</Name>
                 <Text xml:space="preserve">Are you sure you want to restart?</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>64</Top>
+                <Top>692</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>1800</Width>
@@ -1617,23 +1625,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>1</ID>
-                <Image>2160</Image>
-                <Left>120</Left>
+                <Image>2167</Image>
+                <Left>1284</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnRestartYes</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnRestartYes_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Yes</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>399</Top>
+                <Top>1331</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>1</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1642,23 +1650,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>2</ID>
-                <Image>2160</Image>
-                <Left>1476</Left>
+                <Image>2167</Image>
+                <Left>2332</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnRestartNo</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>close_gui_onclick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>No</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>399</Top>
+                <Top>1331</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>2</ZOrder>
               </GUIButton>
             </Controls>
@@ -1666,20 +1674,20 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>2167</BackgroundImage>
+              <BackgroundImage>90</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>1695</Height>
+              <Height>2160</Height>
               <ID>5</ID>
-              <Left>372</Left>
+              <Left>0</Left>
               <Name>gSaveGame</Name>
               <OnClick />
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>302</Top>
+              <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>3108</Width>
+              <Width>3940</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -1689,13 +1697,13 @@
                 <Font>0</Font>
                 <Height>280</Height>
                 <ID>0</ID>
-                <Left>96</Left>
+                <Left>716</Left>
                 <Locked>False</Locked>
                 <Name>lblSaveText</Name>
                 <Text xml:space="preserve">Please choose the name to save this game as:</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>32</Top>
+                <Top>334</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>2844</Width>
@@ -1707,14 +1715,14 @@
                 <Font>0</Font>
                 <Height>162</Height>
                 <ID>1</ID>
-                <Left>72</Left>
+                <Left>716</Left>
                 <Locked>False</Locked>
                 <Name>txtNewSaveName</Name>
                 <OnActivate>txtNewSaveName_OnActivate</OnActivate>
                 <ShowBorder>True</ShowBorder>
                 <Text />
                 <TextColor>19248</TextColor>
-                <Top>334</Top>
+                <Top>422</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>2040</Width>
@@ -1726,23 +1734,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>2</ID>
-                <Image>2160</Image>
-                <Left>2196</Left>
+                <Image>2167</Image>
+                <Left>2832</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnSaveGame</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnSaveGame_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Save</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>885</Top>
+                <Top>1201</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1751,23 +1759,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>3</ID>
-                <Image>2160</Image>
-                <Left>2196</Left>
+                <Image>2167</Image>
+                <Left>2832</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnCancelSave</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>close_gui_onclick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Cancel</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>1425</Top>
+                <Top>1601</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>3</ZOrder>
               </GUIButton>
               <GUIListBox>
@@ -1776,7 +1784,7 @@
                 <Font>0</Font>
                 <Height>1101</Height>
                 <ID>4</ID>
-                <Left>72</Left>
+                <Left>716</Left>
                 <Locked>False</Locked>
                 <Name>lstSaveGamesList</Name>
                 <OnSelectionChanged>lstSaveGamesList_OnSelectionCh</OnSelectionChanged>
@@ -1786,7 +1794,7 @@
                 <ShowScrollArrows>True</ShowScrollArrows>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>518</Top>
+                <Top>638</Top>
                 <Translated>False</Translated>
                 <Visible>True</Visible>
                 <Width>2040</Width>
@@ -1798,23 +1806,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>5</ID>
-                <Image>2160</Image>
-                <Left>2196</Left>
+                <Image>2167</Image>
+                <Left>2832</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnDeleteSave</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnDeleteSave_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Delete</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>1155</Top>
+                <Top>1399</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>5</ZOrder>
               </GUIButton>
             </Controls>
@@ -1822,20 +1830,20 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>2167</BackgroundImage>
+              <BackgroundImage>90</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>1695</Height>
+              <Height>2160</Height>
               <ID>6</ID>
-              <Left>372</Left>
+              <Left>0</Left>
               <Name>gRestoreGame</Name>
               <OnClick />
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>302</Top>
+              <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>3108</Width>
+              <Width>3940</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -1845,13 +1853,13 @@
                 <Font>0</Font>
                 <Height>280</Height>
                 <ID>0</ID>
-                <Left>96</Left>
+                <Left>692</Left>
                 <Locked>False</Locked>
                 <Name>lblRestoreText</Name>
                 <Text xml:space="preserve">Please choose the game that you want to restore:</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>32</Top>
+                <Top>352</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>2844</Width>
@@ -1863,23 +1871,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>1</ID>
-                <Image>2160</Image>
-                <Left>2196</Left>
+                <Image>2167</Image>
+                <Left>2900</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnRestoreGame</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnRestoreGame_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Restore</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>1155</Top>
+                <Top>1411</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>1</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1888,23 +1896,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>2</ID>
-                <Image>2160</Image>
-                <Left>2196</Left>
+                <Image>2167</Image>
+                <Left>2900</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnCancelRestore</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>close_gui_onclick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Cancel</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>1425</Top>
+                <Top>1601</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIListBox>
@@ -1913,7 +1921,7 @@
                 <Font>0</Font>
                 <Height>1285</Height>
                 <ID>3</ID>
-                <Left>72</Left>
+                <Left>692</Left>
                 <Locked>False</Locked>
                 <Name>lstRestoreGamesList</Name>
                 <OnSelectionChanged />
@@ -1923,7 +1931,7 @@
                 <ShowScrollArrows>True</ShowScrollArrows>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>334</Top>
+                <Top>490</Top>
                 <Translated>False</Translated>
                 <Visible>True</Visible>
                 <Width>2040</Width>
@@ -2066,20 +2074,20 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>2168</BackgroundImage>
+              <BackgroundImage>90</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>702</Height>
+              <Height>2160</Height>
               <ID>8</ID>
-              <Left>696</Left>
+              <Left>0</Left>
               <Name>gExitGame</Name>
               <OnClick />
               <PopupStyle>PopupModal</PopupStyle>
               <PopupYPos>0</PopupYPos>
-              <Top>734</Top>
+              <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>2460</Width>
+              <Width>3940</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -2089,23 +2097,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>0</ID>
-                <Image>2160</Image>
-                <Left>120</Left>
+                <Image>2167</Image>
+                <Left>1268</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnConfirmedQuit</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnConfirmedQuit_OnClick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Quit</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>399</Top>
+                <Top>1247</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>0</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -2114,23 +2122,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>205</Height>
+                <Height>157</Height>
                 <ID>1</ID>
-                <Image>2160</Image>
-                <Left>1476</Left>
+                <Image>2167</Image>
+                <Left>2376</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnPlay</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>close_gui_onclick</OnClick>
-                <PushedImage>2161</PushedImage>
+                <PushedImage>0</PushedImage>
                 <Text>Play</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>399</Top>
+                <Top>1247</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>852</Width>
+                <Width>259</Width>
                 <ZOrder>1</ZOrder>
               </GUIButton>
               <GUILabel>
@@ -2139,13 +2147,13 @@
                 <Font>0</Font>
                 <Height>280</Height>
                 <ID>2</ID>
-                <Left>288</Left>
+                <Left>1032</Left>
                 <Locked>False</Locked>
                 <Name>lQuitWindowText</Name>
                 <Text xml:space="preserve">Are you sure you want to quit?</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>64</Top>
+                <Top>696</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>1800</Width>
@@ -2514,7 +2522,7 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>5</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
@@ -2532,7 +2540,7 @@
             <ScriptName>cLive</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>26445</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>443</StartX>
             <StartY>1966</StartY>
@@ -2556,7 +2564,7 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>5</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
@@ -2574,7 +2582,7 @@
             <ScriptName>cGhost</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>48892</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>3280</StartX>
             <StartY>1872</StartY>
@@ -2598,7 +2606,7 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>5</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
@@ -2606,17 +2614,17 @@
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
-            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementLinkedToAnimation>False</MovementLinkedToAnimation>
             <MovementSpeed>40</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>3</NormalView>
+            <NormalView>5</NormalView>
             <Properties />
             <RealName>Charles</RealName>
             <ScriptName>cChar1</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>32462</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>880</StartX>
             <StartY>1812</StartY>
@@ -2652,13 +2660,13 @@
             <MovementSpeed>40</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>3</NormalView>
+            <NormalView>4</NormalView>
             <Properties />
-            <RealName>Cashier</RealName>
+            <RealName>Dani</RealName>
             <ScriptName>cCashier</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>25148</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>724</StartX>
             <StartY>1636</StartY>
@@ -2730,136 +2738,6 @@
         <SubFolders>
           <DialogFolder Name="Fountain fix dialogue">
             <SubFolders>
-              <DialogFolder Name="Cashier Dialogue">
-                <SubFolders />
-                <Dialogs>
-                  <Dialog>
-                    <ID>1</ID>
-                    <Name>dDialog2</Name>
-                    <ShowTextParser>False</ShowTextParser>
-                    <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-cCashier: Hello, feel free to take a look around.
-cCashier: Just grab what you need, and I will handle the rest.
-stop
-]]></Script>
-                    <DialogOptions />
-                  </Dialog>
-                  <Dialog>
-                    <ID>2</ID>
-                    <Name>dPlunger</Name>
-                    <ShowTextParser>False</ShowTextParser>
-                    <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-cCashier: That plunger is 100 score.
-cCashier: Would you like it?
-return
-@1
-cCashier: Sure, one second.
-  if (game.score < 100) {
-    cCashier.Say("Uh... I don't think you have enough.");
-    cLive.Say("Darn.");
-  } else {
-    GiveScore(-100);
-    cLive.AddInventory(iPlunger);
-  }
-stop
-@2
-cCashier: Alright, feel free to keep looking around
-stop
-]]></Script>
-                    <DialogOptions>
-                      <DialogOption>
-                        <ID>1</ID>
-                        <Say>True</Say>
-                        <Show>True</Show>
-                        <Text>Sure.</Text>
-                      </DialogOption>
-                      <DialogOption>
-                        <ID>2</ID>
-                        <Say>True</Say>
-                        <Show>True</Show>
-                        <Text xml:space="preserve">Not right now.</Text>
-                      </DialogOption>
-                    </DialogOptions>
-                  </Dialog>
-                  <Dialog>
-                    <ID>3</ID>
-                    <Name>dWrench</Name>
-                    <ShowTextParser>False</ShowTextParser>
-                    <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-cCashier: That wrench is 150 score.
-cCashier: Would you like it?
-return
-@1
-cCashier: Sure, one second.
-  if (game.score < 150) {
-    cCashier.Say("Uh... I don't think you have enough.");
-    cLive.Say("Darn.");
-  } else {
-    GiveScore(-150);
-    cLive.AddInventory(iWrench);
-  }
-stop
-@2
-cCashier: Alright, feel free to keep looking around
-stop]]></Script>
-                    <DialogOptions>
-                      <DialogOption>
-                        <ID>1</ID>
-                        <Say>True</Say>
-                        <Show>True</Show>
-                        <Text>Sure.</Text>
-                      </DialogOption>
-                      <DialogOption>
-                        <ID>2</ID>
-                        <Say>True</Say>
-                        <Show>True</Show>
-                        <Text xml:space="preserve">Not right now.</Text>
-                      </DialogOption>
-                    </DialogOptions>
-                  </Dialog>
-                  <Dialog>
-                    <ID>4</ID>
-                    <Name>dPipes</Name>
-                    <ShowTextParser>False</ShowTextParser>
-                    <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-cCashier: These piped are 300 score.
-cCashier: Would you like them?
-return
-@1
-cCashier: Sure, one second.
-  if (game.score < 300) {
-    cCashier.Say("Uh... I don't think you have enough.");
-    cLive.Say("Darn.");
-  } else {
-    GiveScore(-300);
-    cLive.AddInventory(iPipes);
-  }
-stop
-@2
-cCashier: Alright, feel free to keep looking around
-stop
-]]></Script>
-                    <DialogOptions>
-                      <DialogOption>
-                        <ID>1</ID>
-                        <Say>True</Say>
-                        <Show>True</Show>
-                        <Text>Sure.</Text>
-                      </DialogOption>
-                      <DialogOption>
-                        <ID>2</ID>
-                        <Say>True</Say>
-                        <Show>True</Show>
-                        <Text xml:space="preserve">Not right now.</Text>
-                      </DialogOption>
-                    </DialogOptions>
-                  </Dialog>
-                </Dialogs>
-              </DialogFolder>
               <DialogFolder Name="Plumber">
                 <SubFolders />
                 <Dialogs>
@@ -3051,6 +2929,136 @@ return
               </Dialog>
             </Dialogs>
           </DialogFolder>
+          <DialogFolder Name="Cashier Dialogue">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>1</ID>
+                <Name>dDialog2</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cCashier: Hello, feel free to take a look around.
+cCashier: Just grab what you need, and I will handle the rest.
+stop
+]]></Script>
+                <DialogOptions />
+              </Dialog>
+              <Dialog>
+                <ID>2</ID>
+                <Name>dPlunger</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cCashier: That plunger is 100 score.
+cCashier: Would you like it?
+return
+@1
+cCashier: Sure, one second.
+  if (game.score < 100) {
+    cCashier.Say("Uh... I don't think you have enough.");
+    cLive.Say("Darn.");
+  } else {
+    GiveScore(-100);
+    cLive.AddInventory(iPlunger);
+  }
+stop
+@2
+cCashier: Alright, feel free to keep looking around
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Sure.</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Not right now.</Text>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>3</ID>
+                <Name>dWrench</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cCashier: That wrench is 150 score.
+cCashier: Would you like it?
+return
+@1
+cCashier: Sure, one second.
+  if (game.score < 150) {
+    cCashier.Say("Uh... I don't think you have enough.");
+    cLive.Say("Darn.");
+  } else {
+    GiveScore(-150);
+    cLive.AddInventory(iWrench);
+  }
+stop
+@2
+cCashier: Alright, feel free to keep looking around
+stop]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Sure.</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Not right now.</Text>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>4</ID>
+                <Name>dPipes</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cCashier: These piped are 300 score.
+cCashier: Would you like them?
+return
+@1
+cCashier: Sure, one second.
+  if (game.score < 300) {
+    cCashier.Say("Uh... I don't think you have enough.");
+    cLive.Say("Darn.");
+  } else {
+    GiveScore(-300);
+    cLive.AddInventory(iPipes);
+  }
+stop
+@2
+cCashier: Alright, feel free to keep looking around
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text>Sure.</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Not right now.</Text>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
         </SubFolders>
         <Dialogs />
       </DialogFolder>
@@ -3204,17 +3212,17 @@ return
       </Font>
       <Font>
         <AutoOutlineStyle>Squared</AutoOutlineStyle>
-        <AutoOutlineThickness>1</AutoOutlineThickness>
+        <AutoOutlineThickness>3</AutoOutlineThickness>
         <ID>1</ID>
         <LineSpacing>0</LineSpacing>
         <Name>Speech</Name>
         <OutlineFont>2</OutlineFont>
-        <OutlineStyle>UseOutlineFont</OutlineStyle>
+        <OutlineStyle>Automatic</OutlineStyle>
         <PointSize>75</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
         <SourceFilename>Comic_Neue/ComicNeue-Regular.ttf</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
-        <VerticalOffset>0</VerticalOffset>
+        <VerticalOffset>20</VerticalOffset>
       </Font>
       <Font>
         <AutoOutlineStyle>Squared</AutoOutlineStyle>
@@ -3224,7 +3232,7 @@ return
         <Name>SpeechOutline</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
-        <PointSize>20</PointSize>
+        <PointSize>75</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
         <SourceFilename>Comic_Neue/ComicNeue-Regular.ttf</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
@@ -5125,7 +5133,58 @@ return
           <SpriteFolder Name="characters">
             <SubFolders>
               <SpriteFolder Name="charA">
-                <SubFolders />
+                <SubFolders>
+                  <SpriteFolder Name="AliceF">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="46" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Alice/IMG_2194.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="47" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Alice/IMG_2195.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="48" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Alice/IMG_2196.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
                 <Sprites>
                   <Sprite Slot="1" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
@@ -5159,7 +5218,7 @@ return
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
-              <SpriteFolder Name="CharB">
+              <SpriteFolder Name="GhostF">
                 <SubFolders />
                 <Sprites>
                   <Sprite Slot="2" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -5192,10 +5251,396 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="49" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/coloredArt/Characters/Ghost/IMG_2191.PNG</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>590</ImportHeight>
+                      <ImportWidth>370</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="50" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/coloredArt/Characters/Ghost/IMG_2192.PNG</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>590</ImportHeight>
+                      <ImportWidth>370</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="51" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/coloredArt/Characters/Ghost/IMG_2193.PNG</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>590</ImportHeight>
+                      <ImportWidth>370</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="NPC">
-                <SubFolders />
+                <SubFolders>
+                  <SpriteFolder Name="Plumber">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="52" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Plumber/IMG_2188.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="53" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Plumber/IMG_2189.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="54" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Plumber/IMG_2190.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="squirrel">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="55" Width="228" Height="188" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Squirrel/IMG_2169.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>188</ImportHeight>
+                          <ImportWidth>228</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="56" Width="228" Height="188" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Squirrel/IMG_2170.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>188</ImportHeight>
+                          <ImportWidth>228</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="57" Width="228" Height="188" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Squirrel/IMG_2171.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>188</ImportHeight>
+                          <ImportWidth>228</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="58" Width="228" Height="188" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Squirrel/IMG_2172.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>188</ImportHeight>
+                          <ImportWidth>228</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="59" Width="228" Height="188" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Squirrel/IMG_2173.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>188</ImportHeight>
+                          <ImportWidth>228</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="60" Width="228" Height="188" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Squirrel/IMG_2174.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>188</ImportHeight>
+                          <ImportWidth>228</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="dog">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="61" Width="306" Height="269" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Dog/IMG_2176.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>269</ImportHeight>
+                          <ImportWidth>306</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="62" Width="306" Height="269" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Dog/IMG_2177.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>269</ImportHeight>
+                          <ImportWidth>306</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="63" Width="306" Height="269" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Dog/IMG_2178.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>269</ImportHeight>
+                          <ImportWidth>306</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="64" Width="306" Height="269" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Dog/IMG_2179.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>269</ImportHeight>
+                          <ImportWidth>306</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="65" Width="306" Height="269" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Dog/IMG_2180.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>269</ImportHeight>
+                          <ImportWidth>306</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="66" Width="306" Height="269" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Dog/IMG_2181.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>269</ImportHeight>
+                          <ImportWidth>306</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Dani">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="84" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Dani/IMG_2185.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="85" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Dani/IMG_2186.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="86" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Dani/IMG_2187.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="Charles">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="87" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Charles/IMG_2206.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="88" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Charles/IMG_2207.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="89" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>images/coloredArt/Characters/Charles/IMG_2208.PNG</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>590</ImportHeight>
+                          <ImportWidth>370</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
                 <Sprites>
                   <Sprite Slot="3" Width="370" Height="590" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
@@ -5362,6 +5807,66 @@ return
                   <OffsetY>0</OffsetY>
                   <ImportHeight>70</ImportHeight>
                   <ImportWidth>292</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="67" Width="430" Height="376" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Objects/IMG_2175.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>376</ImportHeight>
+                  <ImportWidth>430</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="68" Width="242" Height="86" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Objects/IMG_2182.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>86</ImportHeight>
+                  <ImportWidth>242</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="69" Width="870" Height="777" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Objects/IMG_2183.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>777</ImportHeight>
+                  <ImportWidth>870</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="70" Width="870" Height="777" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Objects/IMG_2184.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>777</ImportHeight>
+                  <ImportWidth>870</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
@@ -5671,10 +6176,136 @@ return
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="90" Width="3840" Height="2160" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Background/IMG_2204.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>2160</ImportHeight>
+                  <ImportWidth>3840</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="inventoryItems">
-            <SubFolders />
+            <SubFolders>
+              <SpriteFolder Name="Medal">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="77" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/coloredArt/Inv items/Medal pieces/IMG_2160.PNG</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>200</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="78" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/coloredArt/Inv items/Medal pieces/IMG_2161.PNG</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>200</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="79" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/coloredArt/Inv items/Medal pieces/IMG_2162.PNG</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>200</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="80" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/coloredArt/Inv items/Medal pieces/IMG_2163.PNG</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>200</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="81" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/coloredArt/Inv items/Medal pieces/IMG_2164.PNG</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>200</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="82" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/coloredArt/Inv items/Medal pieces/IMG_2165.PNG</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>200</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="83" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>images/coloredArt/Inv items/Medal pieces/IMG_2166.PNG</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>200</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
             <Sprites>
               <Sprite Slot="35" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
@@ -5841,6 +6472,96 @@ return
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="71" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Inv items/IMG_2156.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="72" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Inv items/IMG_2157.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="73" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Inv items/IMG_2158.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="74" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Inv items/IMG_2159.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="75" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Inv items/IMG_2167.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="76" Width="200" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>images/coloredArt/Inv items/IMG_2168.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>200</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -5879,7 +6600,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>33</Image>
+                    <Image>46</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>47</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>46</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>48</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5892,7 +6634,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>33</Image>
+                    <Image>46</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>47</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>46</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>48</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5905,7 +6668,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>33</Image>
+                    <Image>46</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>47</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>46</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>48</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5918,7 +6702,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>33</Image>
+                    <Image>46</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>47</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>46</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>48</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5937,7 +6742,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>34</Image>
+                    <Image>49</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>51</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>49</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>50</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5950,7 +6776,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>34</Image>
+                    <Image>49</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>51</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>49</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>49</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5963,7 +6810,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>34</Image>
+                    <Image>49</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>51</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>49</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>50</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5976,7 +6844,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>34</Image>
+                    <Image>49</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>51</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>49</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>50</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5985,7 +6874,7 @@ return
           </View>
           <View>
             <ID>3</ID>
-            <Name>View3</Name>
+            <Name>vPlumber</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -5995,7 +6884,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>3</Image>
+                    <Image>52</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>53</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>52</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>54</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -6008,7 +6918,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>3</Image>
+                    <Image>52</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>53</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>52</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>54</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -6021,7 +6952,28 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>3</Image>
+                    <Image>52</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>53</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>52</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>54</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -6034,7 +6986,540 @@ return
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>3</Image>
+                    <Image>52</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>53</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>52</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>54</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>4</ID>
+            <Name>vDani</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>84</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>85</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>84</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>86</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>84</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>85</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>84</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>86</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>84</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>85</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>84</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>86</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>84</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>85</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>84</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>86</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>5</ID>
+            <Name>vCharles</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>87</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>88</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>89</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>87</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>88</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>89</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>87</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>88</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>89</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>87</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>88</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>89</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>6</ID>
+            <Name>vSquirel</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>55</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>56</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>55</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>1</ID>
+                    <Image>56</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>55</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>56</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>55</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>56</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>7</ID>
+            <Name>vDog</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>61</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>1</ID>
+                    <Image>62</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>2</ID>
+                    <Image>61</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>3</ID>
+                    <Image>63</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>61</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>62</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>61</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>63</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>61</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>1</ID>
+                    <Image>62</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>2</ID>
+                    <Image>61</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>3</ID>
+                    <Image>63</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>61</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>1</ID>
+                    <Image>62</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>2</ID>
+                    <Image>61</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>3</ID>
+                    <Image>63</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
