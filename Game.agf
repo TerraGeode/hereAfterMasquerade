@@ -3093,7 +3093,7 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cGhost_Talk</Event>
               <Event Index="3">cGhost_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
@@ -3135,7 +3135,7 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cChar1_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -3220,7 +3220,7 @@
               <Event Index="0">cPlumber_Look</Event>
               <Event Index="1" />
               <Event Index="2">cPlumber_Talk</Event>
-              <Event Index="3" />
+              <Event Index="3">cPlumber_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -3250,9 +3250,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>3398</StartX>
-            <StartY>1734</StartY>
-            <StartingRoom>8</StartingRoom>
+            <StartX>2142</StartX>
+            <StartY>1778</StartY>
+            <StartingRoom>-1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3404,7 +3404,7 @@ stop
                         <ID>2</ID>
                         <Say>True</Say>
                         <Show>True</Show>
-                        <Text xml:space="preserve">Fine, I'll tkae a look.</Text>
+                        <Text xml:space="preserve">Fine, I'll take a look.</Text>
                       </DialogOption>
                     </DialogOptions>
                   </Dialog>
@@ -3415,6 +3415,7 @@ stop
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
   player.Walk(1990, 1824,eBlock);
+  player.LoseInventory(iKey);
 cLive: I found the key.
 cPlumber: Nice. How did you find it?
 return
