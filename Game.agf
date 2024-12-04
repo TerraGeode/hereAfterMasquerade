@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>2</AudioIndexer>
+      <AudioIndexer>11</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Linux, Web</BuildTargets>
@@ -2100,7 +2100,7 @@
                 <Height>157</Height>
                 <ID>0</ID>
                 <Image>2167</Image>
-                <Left>1268</Left>
+                <Left>1248</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnConfirmedQuit</Name>
@@ -3476,6 +3476,7 @@ cPlumber: Thank you very much, now let's see
 cPlumber: about getting this fountain fixed.
   cPlumber.Walk(1380, 1720,eBlock);
   cPlumber.ChangeRoom(5);
+  aPipes.Play();
   Wait(60);
   cPlumber.ChangeRoom(3);
   cPlumber.Walk(1788, 1824,eBlock);
@@ -8444,11 +8445,102 @@ See KeyboardMovement.txt for details.
                 <DefaultVolume>-1</DefaultVolume>
                 <FileType>WAV</FileType>
                 <ID>1</ID>
-                <Index>2</Index>
-                <ScriptName>aMetalBang</ScriptName>
-                <SourceFileName>AudioCache/364786__littleluigi__5-metal-bang.wav</SourceFileName>
+                <Index>4</Index>
+                <ScriptName>aBushRustle</ScriptName>
+                <SourceFileName>audio/bushRustle.wav</SourceFileName>
                 <Type>3</Type>
-                <FileLastModifiedDate>2024-11-05 13:08:18Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-12-04 04:25:54Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>2</ID>
+                <Index>5</Index>
+                <ScriptName>aEvening</ScriptName>
+                <SourceFileName>audio/evening.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-12-04 05:43:30Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>3</ID>
+                <Index>6</Index>
+                <ScriptName>aFountain</ScriptName>
+                <SourceFileName>audio/fountain.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-12-04 03:46:35Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>4</ID>
+                <Index>7</Index>
+                <ScriptName>aSewer</ScriptName>
+                <SourceFileName>audio/sewer.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-12-04 03:42:10Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>5</ID>
+                <Index>8</Index>
+                <ScriptName>aShower</ScriptName>
+                <SourceFileName>audio/shower.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-12-04 03:57:08Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>6</ID>
+                <Index>9</Index>
+                <ScriptName>aStore</ScriptName>
+                <SourceFileName>audio/store.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-12-04 04:34:27Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>7</ID>
+                <Index>10</Index>
+                <ScriptName>aToiletFlush</ScriptName>
+                <SourceFileName>audio/toiletFlush.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-12-04 04:19:00Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>8</ID>
+                <Index>11</Index>
+                <ScriptName>aPipes</ScriptName>
+                <SourceFileName>audio/pipes.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-12-04 07:31:12Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
