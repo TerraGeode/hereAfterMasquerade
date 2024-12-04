@@ -3705,8 +3705,9 @@ stop
 @S  // Dialog startup entry point
 cCashier: Hey, Alice, thanks for agreeing to watch Russel
 cCashier: today. I don't know when I'll be back.
-cCashier: Just remember to take hum to the dog park today
+cCashier: Just remember to take him to the dog park today
 cCashier: I need to get to work, later.
+  cCashier.Walk(252, 1872,eBlock);
   cCashier.ChangeRoom(4, 724, 1636);
 cGhost: So it's just us three to day then?
 cLive: Can dogs even see you?
@@ -3714,7 +3715,7 @@ cLive: Can dogs even see you?
 cDog: Ruff
 cGhost: Maybe?
 cLive: Well then, let's get going.
-  cDog.FollowCharacter(cLive,300);
+  cDog.FollowCharacter(cLive,350, 50);
 return
 ]]></Script>
                 <DialogOptions />
